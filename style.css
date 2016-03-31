@@ -146,7 +146,7 @@ img {
     margin: auto;
     text-align: center;
     z-index: 5;
-    color: red;
+    color: white;
 
 }
 
@@ -155,7 +155,7 @@ img {
 	margin-left: 140px;
 	float: left;
 	font-weight: normal;
-	color: gray;
+	color: #ededed;
 }
 
 .batman {
@@ -163,7 +163,7 @@ img {
 	margin-right: 160px;
 	float: right;
 	font-weight: normal;
-	color: gray;
+	color: #ededed;
 }
 
 
@@ -173,6 +173,7 @@ img {
 body {
   font-family: helvetica, serif;
   font-weight: bold;
+  background-color: #FF6347;
 }
 
 
