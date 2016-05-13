@@ -75,7 +75,7 @@ function player1Punch(){
     
 }
 
-function playerPunch(player, rowNum, sound, effect, score, skin, fist) {
+function playerPunch(player, rowNum, sound, effect, score, skin, fistType) {
 
 	var fist = document.getElementById(player).querySelectorAll("td");
 	//Create new cells to extend arm
@@ -113,18 +113,19 @@ function playerPunch(player, rowNum, sound, effect, score, skin, fist) {
 					punchHit = fist[fist.length];
 				}
 
-				//Take out POW effect
+				//Take out 'POW' graphic
 				pow.style.visibility = 'hidden';
 
 				//Important reset in next line
-				playerPunch();
+				playerPunch("player2-arm", 1, "hookLeft", "pow2", "p2-score", "skin2", "fist2");
+				playerPunch("player3-arm", 0, "hookRight", "pow1", "p1-score", "skin", "fist");
 			}  
 		}
 
 		playAgain();
 
 	} else {
-		extendArm.className = " " + "fist2";
+		extendArm.className = fistType;
 		arm.className = skin;
 	}
 }
