@@ -73,14 +73,14 @@ td {
 	height: 70px;
 	width: 65px;
 	overflow: visible;
-	background-image: url("fist.png");
+	background-image: url("../images/fist.png");
 }
 
 .fist2 {
 	height: 70px;
 	width: 65px;
 	overflow: visible;
-	background-image: url("fist2.png");
+	background-image: url("../images/fist2.png");
 	top: -20px;
 	position: relative;
 }
