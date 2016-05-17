@@ -4,6 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Kind of a race.</title>
+
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
 	<script type="text/javascript" src="scripts/scripts.js"></script>
 </head>
@@ -42,8 +43,6 @@
 					    
 					</table>
 
-					<p>Player One Score: <a id="p1-score">0</a></p>
-
 					<table class="player-two">
 
 					    <tr id="player2-arm">
@@ -52,9 +51,8 @@
 					    </tr>
 					</table>
 
-					<p>Player Two Score: <a id="p2-score">0</a></p>
-
 				</div>
+
 
 				<div id="pow2">
 					<img src="images/pow2.png" alt="">
@@ -64,16 +62,27 @@
 					<img src="images/person2.png" alt="">
 				</div>
 
+				<div class="score-card1">
+					<p>Zombie's Score:</p>
+					<h3 id="p1-score">0</h3>
+				</div>
+
+				<div class="score-card2">
+					<p>Ben's Score:</p>
+					<h3 id="p2-score">0</h3>
+				</div> 
+
 			</div>
 
 	</div>
 
-	<audio id="hookLeft">
-	  <source src="sounds/lefthook.wav" type="audio/wav">
-	</audio>
-	<audio id="hookRight">
-	  <source src="sounds/righthook.wav" type="audio/wav">
-	</audio>
+<audio id="hookLeft">
+  <source src="sounds/lefthook.wav" type="audio/wav">
+</audio>
+<audio id="hookRight">
+  <source src="sounds/righthook.wav" type="audio/wav">
+</audio>
+
 
 </body>
 
